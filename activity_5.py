@@ -1,12 +1,11 @@
 def more_than_20(file):
-   long_words = []
-with open(file,'r') as f:
-    for line in f:
-        words = line.strip().split()
-    for word in words:
-        if len(word) > 20:
-            long_words.append(word)
-return long_words
+    word = []
+    data = open(file,'r')
+ #for word in data:
+#   if len(word.strip()) > 20:
+#       word = [x.strip()] for x in data if len(x.strip)
+return words
+
 
 def has_no_e(word):
     if 'e' in word:

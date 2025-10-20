@@ -1,12 +1,12 @@
 def more_than_20(file):
-    word = []
-    data = open(file,'r')
-    for word in data:
-        if len(words.strip()) > 20:
-            words.append(words.strip())
-words = [x.strip()for x in data if len(x.strip()) > 20] 
-return words
-# print(more_than_20("CROSSWRD.txt"))
+   long_words = []
+with open(file,'r') as f:
+    for line in f:
+        words = line.strip().split()
+    for word in words:
+        if len(word) > 20:
+            long_words.append(word)
+return long_words
 
 def has_no_e(word):
     if 'e' in word:
@@ -21,3 +21,7 @@ def uses_only(word,letters):
 return True
 
 def all_uses_only(file,letters):
+    for char in word:
+        if char not in letters:
+            return False
+return True

@@ -3,9 +3,8 @@ def more_than_20(file):
     data = open(file,'r')
  #for word in data:
 #   if len(word.strip()) > 20:
-#       word = [x.strip()] for x in data if len(x.strip)
-return words
-
+#   word = [x.strip()] for x in data if len(x.strip)
+return word
 
 def has_no_e(word):
     if 'e' in word:

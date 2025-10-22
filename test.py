@@ -13,14 +13,14 @@
 # x= grades.index('Carey')
 #print(grades[x][3])
 
-grades = {}
-grades['Max']={'A1':10,'A2':9,'A3':8,'A4':7}
-grades['Alex'] =[9,9,8,7]
-grades['Carey'] =[10,10,10,2]
+#grades = {}
+#grades['Max']={'A1':10,'A2':9,'A3':8,'A4':7}
+#grades['Alex'] =[9,9,8,7]
+#grades['Carey'] =[10,10,10,2]
 
-print(grades.keys())
-for student in grades.keys():
-    print(student.grades[student])
+#print(grades.keys())
+#for student in grades.keys():
+    #print(student.grades[student])
 
 #print(grades['Max']['A1'])
 
@@ -44,3 +44,9 @@ for student in grades.keys():
 # print(data)
 # print(statement is statement3)
 
+
+price = []
+price['Eggs']=0.50
+price['Flour']=0.05
+price['Sugar']=0.10
+price['Milk']=2.49
